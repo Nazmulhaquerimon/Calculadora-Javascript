@@ -5,33 +5,65 @@
   background-color: #FA5882;
   border-radius: 10px;
   box-shadow: 1px 1px 5px #B40486;
+  width: 450px;
 }
 
 .btn {
-  width: 60px;
-  height: 50px;
+  width: 95px;
+  height: 85px;
   margin: 5px;
   box-shadow: 1px 1px 1px #B40486;
 }
 
 .clear {
-  width: 130px;
+  width: 200px;
 }
 
 .enter {
-  height: 110px;
+  height: 180px;
 }
 
 .zero {
-  width: 130px;
+  width: 200px;
+}
+
+#ultimafileira {
+  margin-top: -95px
 }
 
 .resultado {
   text-align: right;
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
   border: solid 1px #000;
   box-shadow: 1px 1px 1px #B40486;
   background: #A9D0F5;
+}
+
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
